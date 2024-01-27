@@ -1,0 +1,96 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.wrapper {
+    height: 600px;
+    width: 900px;
+    background-color: rgba(108, 201, 235, 255);
+}
+
+.header {
+    width: 900px;
+    height: 50px;
+    border-bottom: 4px dotted white;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    text-indent: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.header p {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px #4443A7;
+}
+
+.content {
+    height: 500px;
+    width: 900px;
+    border-bottom: 4px dotted white;
+}
+
+.section {
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+form{
+    margin-left: 35px;
+
+}
+.aside {
+    margin-top: 20px;
+    margin-left: 80px;
+    float: left;
+    width: 400px;
+    height: 400px;
+    color: #111EE8;
+}
+
+.tieuDe{
+    float: left;
+    width: 50%;
+}
+
+.text input{
+    width: 233px;
+}
+
+.nd{
+    padding:5px auto;
+    float: right;
+    width: 50%;
+}
+/* .nd select,
+.nd .text input,
+.nd .text textarea,
+.nd .btn {
+    margin-bottom: 10px;
+    border-radius: 5px;
+} */
+.footer{
+    color: white;
+    text-align: center;
+}
