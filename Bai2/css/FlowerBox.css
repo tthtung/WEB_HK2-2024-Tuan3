@@ -1,0 +1,157 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.wrapper{
+    height: 600px;
+    width: 900px;
+    border:1px solid;
+}
+.header{
+    height: 100px;
+    width: 900;
+    background-color: rgba(41,80,123,255);
+    position: relative;
+}
+.logo{
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    height: 80px;
+}
+.txtlogo{
+    color: white;
+    margin-top: 10px;
+    float: left;
+    font-size: larger;
+}
+.btn{
+    margin: 10px;
+    float: right;
+    
+}
+nav .menu li{
+    /* padding-top: 10px; */
+    position: absolute;
+    height: 30px;
+    float: left;
+    list-style-type: none;
+    background-color: rgba(60,112,177,255);
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: bold;
+}
+li:nth-child(1){
+    text-align: center;
+    width: 50px;
+    bottom : 0px;
+    right: 435px;
+}
+/* 435 */
+li:nth-child(2){
+    text-align: center;
+    width: 95px;
+    bottom : 0px;
+    right: 330px;
+}
+/* 330 */
+li:nth-child(3){
+    text-align: center;
+    width: 100px;
+    bottom : 0px;
+    right: 220px;
+}
+/* 220 */
+li:nth-child(4){
+    text-align: center; 
+    width: 130px;
+    bottom : 0px;
+    right: 80px;
+}
+/* 80 */
+li:nth-child(5){
+    text-align: center;
+    width: 60px;
+    bottom : 0px;
+    right: 10px;
+}
+.content{
+    width: 900px;
+    height: 470px;
+}
+
+.content .h{
+    margin-top: 10px;
+    width: 600px;
+    float: left;
+}
+
+.content .text{
+    margin-left: 20px;
+    width: 220px;
+    float: left;
+
+}
+
+.content .f{
+    width: 600px;
+}
+
+.h .f form{
+    float: left;
+    margin-left: 10px;
+}
+
+.h .f p{
+    color: red;
+    font-style: italic;
+    text-align: justify;
+    margin-left: 2px;
+    width: 300px;
+}
+
+.h .f form label{
+    margin-top: 10px;
+    width: 170px;
+    float: left;
+}
+
+.h .f form .btn{
+    margin-top: 10px;
+    width: 170px;
+    float: left;
+}
+
+
+
+.aside{
+    text-align: center;
+    margin-top: 30px;
+    float: right;
+    width: 290px;
+    height: 300px;
+    background-color: #f8f8f8;
+}
+
+.aside .nd{
+    width: 250px;
+}
+
+
+
+.footer{
+    color: white;
+    width: 900px;
+    height: 30px;
+    /* line-height: 60px; */
+    background-color: rgba(32,49,77,255);
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
